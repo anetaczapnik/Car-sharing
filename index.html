@@ -10,56 +10,183 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <section class="page_main">
-        <header class="page-header">
-            <div class="container1">
-                <svg xmlns="http://www.w3.org/2000/svg" width="34.454" height="37.949" viewBox="0 0 34.454 37.949">
-                    <defs>
-                        <style>.a{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;}</style>
-                    </defs>
-                    <g transform="translate(1.5 1.5)">
-                        <path class="a" d="M32.985,8.242A5.242,5.242,0,1,1,27.742,3a5.242,5.242,0,0,1,5.242,5.242Z"
-                              transform="translate(-1.531 -3)"/>
-                        <path class="a" d="M14.985,18.742A5.242,5.242,0,1,1,9.742,13.5,5.242,5.242,0,0,1,14.985,18.742Z"
-                              transform="translate(-4.5 -1.268)"/>
-                        <path class="a" d="M32.985,29.242A5.242,5.242,0,1,1,27.742,24,5.242,5.242,0,0,1,32.985,29.242Z"
-                              transform="translate(-1.531 0.464)"/>
-                        <path class="a" d="M12.885,20.265,24.82,27.22" transform="translate(-3.117 -0.152)"/>
-                        <path class="a" d="M24.8,9.765,12.885,16.72" transform="translate(-3.117 -1.884)"/>
-                    </g>
-                </svg>
-                <div class="logo1">CAR</div>
-                <div class="logo2">SHARING</div>
-            </div>
-            <div class="container2">
-                <nav class="page-nav">
-                    <ul class="page-nav-list">
-                        <li class="link-effect"><a class="link-effect" href="#">Home</a></li>
-                        <li class="link-effect"> <a class="link-effect" href="#">Blog</a></li>
-                        <li class="link-effect"><a class="link-effect" href="#">Serivce</a></li>
-                        <li class="link-effect"><a class="link-effect" href="#">Contact</a></li>
+
+    <div class="background">
+        <header class="header">
+            <div class="header__container container">
+                <div class="header__logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="34.454" height="37.949" viewBox="0 0 34.454 37.949">
+                        <defs>
+                            <style>.a{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;}</style>
+                        </defs>
+                        <g transform="translate(1.5 1.5)">
+                            <path class="a" d="M32.985,8.242A5.242,5.242,0,1,1,27.742,3a5.242,5.242,0,0,1,5.242,5.242Z"
+                                  transform="translate(-1.531 -3)"/>
+                            <path class="a" d="M14.985,18.742A5.242,5.242,0,1,1,9.742,13.5,5.242,5.242,0,0,1,14.985,18.742Z"
+                                  transform="translate(-4.5 -1.268)"/>
+                            <path class="a" d="M32.985,29.242A5.242,5.242,0,1,1,27.742,24,5.242,5.242,0,0,1,32.985,29.242Z"
+                                  transform="translate(-1.531 0.464)"/>
+                            <path class="a" d="M12.885,20.265,24.82,27.22" transform="translate(-3.117 -0.152)"/>
+                            <path class="a" d="M24.8,9.765,12.885,16.72" transform="translate(-3.117 -1.884)"/>
+                        </g>
+                    </svg>
+                    <div class="logo1">CAR</div>
+                    <div class="logo2">SHARING</div>
+                </div>
+                <nav>
+                    <ul class="header__nav">
+                        <li class="nav__element"><a class="nav__link" href="#">Home</a></li>
+                        <li class="nav__element"><a class="nav__link" href="#">Blog</a></li>
+                        <li class="nav__element"><a class="nav__link" href="#">Serivce</a></li>
+                        <li class="nav__element"><a class="nav__link" href="#">Contact</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
-        <div class="main-content">
-            <h1>CAR SHARING</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <section class="button">
-                <span class="btn1">Share a car</span>
-                <span class="btn2">Key features</span>
-            </section>
+
+        <section class="opening">
+            <div class="opening__container container">
+                <h1 class="opening__header">CAR SHARING</h1>
+                <p class="opening__heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="btn__container">
+                    <span class="btn btn__primary">Share a car</span>
+                    <span class="btn btn__secondary">Key features</span>
+                </div>
+                <div class="opening__arrow"></div>
+            </div>
+        </section>
+    </div>
+
+    <section class="blog">
+        <h2 class="header__style">BLOG</h2>
+        <div class="blog__container">
+            <article class="blog__article">
+                <img src="images/photo1.png" alt="car interior" class="blog__article--image">
+                <h3 class="blog__article--title">Lorep ipsum sit dolor</h3>
+                <h4 class="blog__article--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
+                <div class="btn blog__btn">Read more</div>
+            </article>
+            <article class="blog__article">
+                <img src="images/photo2.png" alt="car interior"  class="blog__article--image">
+                <h3 class="blog__article--title">Lorep ipsum sit dolor</h3>
+                <h4 class="blog__article--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
+                <div class="btn blog__btn">Read more</div>
+            </article>
+            <article class="blog__article">
+                <img src="images/photo3.png" alt="car interior"  class="blog__article--image">
+                <h3 class="blog__article--title">Lorep ipsum sit dolor</h3>
+                <h4 class="blog__article--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
+                <div class="btn blog__btn">Read more</div>
+            </article>
         </div>
     </section>
-    <section class="arrow-background">
-        <svg xmlns="http://www.w3.org/2000/svg" width="21.077" height="21.624" viewBox="0 0 21.077 21.624"><defs><style>.a{fill:#fff;}</style></defs><path class="a" d="M20.062,11.444l1.071,1.071a1.154,1.154,0,0,1,0,1.636l-9.378,9.382a1.154,1.154,0,0,1-1.636,0L.738,14.152a1.154,1.154,0,0,1,0-1.636l1.071-1.071a1.16,1.16,0,0,1,1.655.019l5.541,5.816V3.408A1.156,1.156,0,0,1,10.163,2.25h1.544a1.156,1.156,0,0,1,1.158,1.158V17.279l5.541-5.816a1.151,1.151,0,0,1,1.655-.019Z" transform="translate(-0.397 -2.25)"/></svg>
+
+    <section class="service">
+        <h2 class="service__header header__style">SERVICE</h2>
+        <div class="service__container container">
+            <article class="service__articles">
+                <img src="images/mini1@2x.png" alt="car interior" class="service__articles--image">
+                <h3 class="service__article--title">Lorep ipsum sit dolor</h3>
+                <h4 class="service__article--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</h4>
+                <div class="btn service__btn">Read more</div>
+            </article>
+            <article class="service__articles">
+                <img src="images/mini2@2x.png" alt="car interior" class="service__articles--image">
+                <h3 class="service__article--title">Lorep ipsum sit dolor</h3>
+                <h4 class="service__article--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</h4>
+                <div class="btn service__btn">Read more</div>
+            </article>
+            <article class="service__articles">
+                <img src="images/mini3@2x.png" alt="car interior" class="service__articles--image">
+                <h3 class="service__article--title">Lorep ipsum sit dolor</h3>
+                <h4 class="service__article--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</h4>
+                <div class="btn service__btn">Read more</div>
+            </article>
+            <article class="service__articles">
+                <img src="images/mini4@2x.png" alt="car interior" class="service__articles--image">
+                <h3 class="service__article--title">Lorep ipsum sit dolor</h3>
+                <h4 class="service__article--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</h4>
+                <div class="btn service__btn">Read more</div>
+            </article>
+        </div>
     </section>
-    <section>
-        <h2>BLOG</h2>
-        <article>
-            <img src="../images/photo1.png" alt="">
-        </article>
+
+    <section class="contact">
+        <h2 class="contact__header header__style">CONTACT</h2>
+        <div class="contact__container--form container">
+            <div class="contact__photo"></div>
+            <div class="form">
+                <form class="contact__form">
+                    <div class="form__text">
+                        <label for="text"></label>
+                        <input type="text" id="text" class="form__input" placeholder="Type your name">
+                    </div>
+                    <div class="form__text">
+                        <input type="email" id="email" placeholder="Type your e-mail" class="form__input">
+                        <label for="email"></label>
+                    </div>
+                    <div class="form__text">
+                        <label for="textarea"></label>
+                        <input type="textarea" id="textarea" class="form__input form_textarea"  placeholder="Type your message">
+                    </div>
+                    <div class="form__consent">
+                        <label class="form__chk">
+                            <input type="checkbox" class="checkbox"/>
+                            <span class="chk"></span>
+                            <p class="consent__text">
+                            I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)</p>
+                        </label>
+                    </div>
+                </form>
+                <div class="btn__container">
+                    <button type="submit" class="btn contact__btn">SEND</button>
+                </div>
+            </div>
+
+        </div>
     </section>
-    <footer></footer>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <div>
+                <div class="footer__logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="34.454" height="37.949" viewBox="0 0 34.454 37.949" class="footer__logo--image">
+                        <defs>
+                            <style>.a{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;}</style>
+                        </defs>
+                        <g transform="translate(1.5 1.5)">
+                            <path class="a" d="M32.985,8.242A5.242,5.242,0,1,1,27.742,3a5.242,5.242,0,0,1,5.242,5.242Z"
+                                  transform="translate(-1.531 -3)"/>
+                            <path class="a" d="M14.985,18.742A5.242,5.242,0,1,1,9.742,13.5,5.242,5.242,0,0,1,14.985,18.742Z"
+                                  transform="translate(-4.5 -1.268)"/>
+                            <path class="a" d="M32.985,29.242A5.242,5.242,0,1,1,27.742,24,5.242,5.242,0,0,1,32.985,29.242Z"
+                                  transform="translate(-1.531 0.464)"/>
+                            <path class="a" d="M12.885,20.265,24.82,27.22" transform="translate(-3.117 -0.152)"/>
+                            <path class="a" d="M24.8,9.765,12.885,16.72" transform="translate(-3.117 -1.884)"/>
+                        </g>
+                    </svg>
+                    <div class="logo1">CAR</div>
+                    <div class="logo2">SHARING</div>
+                </div>
+                <div class="footer__columns">
+                    <div class="footer__column">
+                        <p class="footer__column--item">Home page</p>
+                        <p class="footer__column--item">About US</p>
+                        <p class="footer__column--item">Gallery</p>
+                        <p class="footer__column--item">Share Regulation</p>
+                    </div>
+                    <div class="footer__column">
+                        <p class="footer__column--item">Price</p>
+                        <p class="footer__column--item">Our Fleet</p>
+                        <p class="footer__column--item">OUR CLIENTS</p>
+                        <p class="footer__column--item">Contact</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__column--copyright">
+                <p>Copyright © Coders Lab</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
